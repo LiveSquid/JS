@@ -1,4 +1,71 @@
-body{
-    font-family: Verdana;
-    font-size: 2em;
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Helvetica;
+}
+
+#buttonContainer{
+    text-align: center;
+}
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    font-family: Helvetica;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#increaseButton{
+    background-color: #52ff3f;
+    transition: background-color 0.25s;
+}
+
+#decreaseButton{
+    background-color: #ff2212;
+    transition: background-color 0.25s;
+}
+#resetButton{
+    background-color: #000000;
+    color: #ffffff;
+    transition: background-color 0.25s;
+
+}
+
+#increaseButton:hover{
+    background-color: #38ad2b;
+}
+#decreaseButton:hover{
+    background-color:#b41a0f;
+}
+#resetButton:hover{
+    background-color: #7f7e7e;
+}
+
+#minMaxCont{
+    text-align: center;
+    padding-top: 150px;
+    font-family: Helvetica;
+}
+.title{
+    font-size: 5em;
+    padding-bottom: 25px;
+    font-family:'Times New Roman', Times, serif;
+}
+.submitButtons{
+    padding: 5px 10px;
+    font-size: 0.7em;
+    font-family: Helvetica;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.minMaxLabel{
+    font-size: 1.3em;
+    padding-left: 50px;
+}
+
+#guessCont{
+    padding-top: 30px;
+    text-align: center;
+    font-family: Helvetica;
 }
