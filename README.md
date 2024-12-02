@@ -1,2 +1,2 @@
 # JS
-Javascript
+Some basic JavaScript projects, using HTML and CSS
